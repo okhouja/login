@@ -6,32 +6,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+/*.container {
   border: 2px burlywood solid;
 }
-.box {
+/* .box {
   float: left;
   border: solid 2px teal;
   width: 40%;
   padding: 50px;
-}
+} */
 body {
   font-family: Rokkitt, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100 vw;
   height: 100vh;
 }
 /* background-image: url(../img/bg.png); */
-/*
+
 form {
   background: #fff;
-  padding: 7% 30%;
-  margin-top: 23%;
-  position: relative;
-  border-radius: 12px;
+  /* padding: 7% 30%; */
+  /* margin-top: 23%; */
+  /* position: relative; */
+  /* border-radius: 12px; */
   margin: 25% auto;
   border: 2px red dashed;
-  width: 50%;
-  height: 50%;
+  width: 85%;
+  /* height: 50%; */
 }
 .border {
   border: solid 2px black;
@@ -39,18 +39,18 @@ form {
   position: absolute;
   left: 250px;
 }
-h1 {
+*/ h1 {
   font-size: 1.7rem;
   color: #474646;
   text-align: center;
 }
- form input {
+form input {
   border: none;
   padding: 5px;
   height: 40px;
-  float: right;
+  float: none;
 }
- .input {
+.input {
   border: none;
   padding: 5px;
 }
@@ -92,5 +92,32 @@ input[type="password"] {
   position: absolute;
   top: 50%;
   left: 75%;
+  transform: translate(-50%, -50%);
+}
+.box4 {
+  width: 80%;
+  height: 20%;
+  background: rgb(87, 181, 212);
+  position: absolute;
+  top: 80%;
+  right: 81%;
+  transform: translate(-50%, -50%);
+}
+.box5 {
+  width: 80%;
+  height: 20%;
+  background: red;
+  position: absolute;
+  top: 50%;
+  right: 81%;
+  transform: translate(-50%, -50%);
+}
+.box6 {
+  width: 80%;
+  height: 20%;
+  background: rgb(10, 103, 160);
+  position: absolute;
+  top: 20%;
+  right: 81%;
   transform: translate(-50%, -50%);
 }
