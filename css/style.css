@@ -10,11 +10,11 @@ body {
   font-family: Rokkitt, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100 vw;
   height: 100vh;
-  background-image: url(../img/bg.png);
+  /* background-image: url(../img/bg.png); */
 }
 form {
   background: #fff;
-  padding: 7%;
+  padding: 6%;
   margin-top: 23%;
   position: relative;
   border-radius: 12px;
@@ -28,4 +28,8 @@ h1 {
   font-size: 1.7em;
   color: #474646;
   text-align: center;
+}
+form input {
+  border: blau 2px solid;
+  top: px;
 }
