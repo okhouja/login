@@ -6,7 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+  border: 2px burlywood solid;
+}
+.box {
+  float: left;
+  border: solid 2px teal;
+  width: 40%;
+  padding: 50px;
+}
 body {
   font-family: Rokkitt, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100 vw;
