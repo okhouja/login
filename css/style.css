@@ -14,7 +14,7 @@ body {
 }
 form {
   background: #fff;
-  padding: 6%;
+  padding: 7% 30%;
   margin-top: 23%;
   position: relative;
   border-radius: 12px;
@@ -24,12 +24,22 @@ form {
   width: 50%;
   height: 50%;
 }
+.border {
+  /* border: solid 2px black; */
+  padding: 0;
+  position: absolute;
+  left: 250px;
+}
 h1 {
-  font-size: 1.7em;
+  font-size: 1.7rem;
   color: #474646;
   text-align: center;
 }
 form input {
-  border: blau 2px solid;
-  top: px;
+  border: none;
+  padding: 5px;
 }
+/* .input {
+  border: none;
+  padding: 5px;
+} */
