@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock&family=Rokkitt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --border: 2px solid rgba(165, 160, 160, 0.6);
+}
+body {
+  font-family: Rokkitt, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: var(--border);
+  background: chartreuse;
+  display: flex;
+  margin: 10% auto;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 350px;
+}
+.social {
+  display: flex;
+  background-color: coral;
+  flex-direction: column;
+  justify-content: space-between;
+  border: var(--border);
+  width: 25vw;
+}
+.form-container {
+  background-color: darkcyan;
+  display: flex;
+  border: var(--border);
+  width: 45%;
+}
+.social_button {
+  width: 80%;
+}
+/* .select {
+} */
+
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+li {
+  list-style-type: none;
+}
