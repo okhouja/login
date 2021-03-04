@@ -14,7 +14,7 @@ body {
 }
 .container {
   border: var(--border);
-  background: chartreuse;
+  /* background: chartreuse; */
   display: flex;
   margin: 10% auto;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 .social {
   display: flex;
-  background-color: coral;
+  /* background-color: coral; */
   flex-direction: column;
 
   /* align-self: stretch; */
@@ -71,8 +71,27 @@ div button {
   background-color: #4f7dbd;
   text-align: center;
 }
+.social_button_fb {
+  background-image: url(../icon/facebook.svg);
+  /* border: 2px yellow dotted; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 18%;
+  background-position: 4px;
+  /* width: 50px; */
+}
+
 .google {
   background-color: #e24b2e;
+}
+.social_button_google {
+  background-image: url(../icon/g+.svg);
+  /* border: 2px yellow dotted; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 18%;
+  background-position: 9px;
+  /* width: 50px; */
 }
 .twitter {
   background-color: #64cdf1;
