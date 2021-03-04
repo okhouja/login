@@ -38,7 +38,7 @@ body {
   margin: 2%;
   display: flex;
   border: var(--border);
-  width: 45%;
+  width: 50%;
 }
 .social_button {
   display: flex;
@@ -76,4 +76,13 @@ div button {
 }
 .twitter {
   background-color: #64cdf1;
+}
+.login {
+  background-color: #64b1ff;
+  width: 100px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 6%;
+  text-align: center;
+  line-height: 30px;
 }
