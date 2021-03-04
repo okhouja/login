@@ -76,6 +76,7 @@ div button {
   background-repeat: no-repeat;
   background-size: 18%;
   background-position: 4px;
+  position: relative;
 }
 
 .google {
@@ -104,4 +105,23 @@ div button {
   border-radius: 6%;
   text-align: center;
   line-height: 30px;
+}
+.vline {
+  position: relative;
+  /* display: flex; */
+  border-right: 4px solid rgb(41, 41, 41);
+  box-shadow: 1px 0px rgba(0, 0, 0, 0.1);
+  /* height: 4p; */
+  /* width: 10px;*/
+  /* margin: 0 10px; */
+  /* padding-left: 15px; */
+  /* outline-style: none; */
+  /* margin-left: -3px; */
+
+  top: 5px;
+  left: 0;
+  right: 0;
+  /* margin: auto; */
+  /* border-right: thick solid #ff0000; */
+  /* z-index: 3; */
 }
