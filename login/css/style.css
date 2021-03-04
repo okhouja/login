@@ -73,12 +73,9 @@ div button {
 }
 .social_button_fb {
   background-image: url(../icon/facebook.svg);
-  /* border: 2px yellow dotted; */
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: 18%;
   background-position: 4px;
-  /* width: 50px; */
 }
 
 .google {
@@ -86,15 +83,18 @@ div button {
 }
 .social_button_google {
   background-image: url(../icon/g+.svg);
-  /* border: 2px yellow dotted; */
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: 18%;
   background-position: 9px;
-  /* width: 50px; */
 }
 .twitter {
   background-color: #64cdf1;
+}
+.social_button_twitter {
+  background-image: url(../icon/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 18%;
+  background-position: 9px;
 }
 .login {
   background-color: #64b1ff;
