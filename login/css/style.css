@@ -48,8 +48,27 @@ body {
   width: 88%;
   /* height: 70%; */
 }
-/* .select {
-} */
+.select {
+  width: 2px;
+  height: 75px;
+  /* padding: 4px; */
+  margin-top: 106px;
+  background-color: grey;
+  /* align-self: center; */
+}
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 300px;
+  right: 495px;
+  /* background: lightblue; */
+  border: grey solid 2px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 300px;
+  /* align-items: baseline; */
+}
 
 input[type="checkbox"] {
   vertical-align: middle;
@@ -123,4 +142,10 @@ div button {
 .text {
   display: block;
   padding-right: 18px;
+}
+.text2 {
+  position: absolute;
+  right: 50.3%;
+  top: 38%;
+  padding-right: 34px;
 }
