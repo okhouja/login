@@ -34,12 +34,41 @@ body {
   /* height: 55px; */
 }
 .form-container {
-  background-color: darkcyan;
-  margin: 2%;
+  /* background-color: darkcyan; */
+  margin-top: -3%;
+  /* margin-left: 3%; */
   display: flex;
-  border: var(--border);
+  flex-direction: column;
+  /* border: var(--border); */
+  justify-self: center;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 50%;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  width: 90%;
+}
+.icon-wrapper {
+  display: flex;
+  border-bottom: var(--border);
+}
+.form__icon {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+.form__icon_username {
+  background-image: url("../icon/user.svg");
+}
+
+.form__icon_password {
+  background-image: url("../icon/lock.svg");
+}
+
 .social_button {
   display: flex;
   justify-content: flex-start;
