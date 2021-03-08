@@ -21,13 +21,31 @@
           <form class="form" action="#">
             <div>
               <input
+                class="form_email"
                 type="email"
                 name="email"
                 placeholder="Username or email"
               />
             </div>
             <div>
-              <input type="password" name="website" placeholder="password" />
+              <input
+                class="form_password"
+                type="password"
+                name="website"
+                placeholder="password"
+              />
+            </div>
+            <div class="form_checkbox">
+                <label class="form__label">
+                  <input
+                    class="form__checkbox"
+                    type="checkbox"
+                    name="rememberMe"
+                  />
+                  Remember me
+                </label>
+                <button type="submit" class="form__button">Login</button>
+              </div>
             </div>
           </form>
         </div>

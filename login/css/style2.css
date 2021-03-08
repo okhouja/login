@@ -50,7 +50,7 @@ body {
   /* justify-content: center; */
   align-content: flex-start;
   width: 250px;
-  height: 180px;
+  height: 200px;
 }
 h1 {
   margin-bottom: 77%;
@@ -66,6 +66,42 @@ h1 {
   width: 240px;
   height: 100px;
   background-color: blue;
+}
+.form_email {
+  height: 30px;
+  border-bottom: 2px black solid;
+  border-top: none;
+}
+.form_password {
+  height: 40px;
+  border-bottom: 2px black solid;
+  border-top: none;
+}
+.form_checkbox {
+  /* width: 150px;
+  height: 30px;
+  display: inline-block;
+  justify-self: right; */
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  background-color: burlywood;
+  /* vertical-align: middle; */
+}
+.form_login {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #64b1ff;
+  width: 100px;
+  height: 40px;
+  font-size: larger;
+  border-radius: 6%;
+  text-align: center;
+  line-height: 30px;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
 }
 /* select */
 .select {
