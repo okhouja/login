@@ -42,19 +42,30 @@ body {
 /* Form */
 .form-container {
   display: flex;
+  flex-direction: column;
   border: 2px rgb(139, 29, 29) solid;
-  /* background-color: indianred; */
+  background-color: indianred;
   margin: 1% auto;
-  border-top: none;
-  justify-content: center;
-  align-items: center;
+  /* border-top: none; */
+  /* justify-content: center; */
+  align-content: flex-start;
   width: 250px;
   height: 180px;
 }
 h1 {
-  padding: 0px;
   margin-bottom: 77%;
   font-family: PT Sans, sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-content: center;
+  align-items: center;
+  margin-top: -170px;
+  width: 240px;
+  height: 100px;
+  background-color: blue;
 }
 /* select */
 .select {
