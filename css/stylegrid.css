@@ -7,11 +7,11 @@
 .container {
   display: grid;
   border: 2px red dashed;
-  grid-template-columns: 2fr repeat(2, 2fr);
-  grid-template-rows: 1fr repeat(2, 3fr) 1fr;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 1fr repeat(2, 2fr) 1fr;
 
   /* background-color: white; */
-  flex-direction: column;
+  /* flex-direction: column; */
   /* border: 2px rgba(128, 128, 128, 0.342) solid; */
   margin: 10% auto;
   /* justify-content: center;
@@ -23,14 +23,25 @@
     "Social-container Select form-container"
     "Social-container Select form-container"
     "footer footer footer";
+  gap: calc(1rem + 1%);
 }
 .Social-container {
   grid-area: Social-container;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   border: 2px teal dotted;
 }
 .Select {
   grid-area: Select;
   border: 2px tomato dotted;
+  position: relative;
+
+  /* width: 4px; */
+  /* height: 50%; */
+  /* display: grid; */
+  /* top: 15px;
+  right: -15px; */
 }
 .form-container {
   grid-area: form-container;
@@ -38,7 +49,135 @@
 }
 .footer {
   grid-area: footer;
+  /* display: flex; */
+  margin: 0 auto;
+  /* border-top: 2px rgba(128, 128, 128, 0.425) solid; */
+  justify-content: center;
+  background-color: rgba(118, 194, 224, 0.164);
+  width: 648px;
+  /* height: 50px; */
+  text-align: center;
+  align-content: space-between;
+  font-family: PT Sans, sans-serif;
+  color: #1877f2;
+  font-weight: 700;
+  font-size: large;
 
   border: 2px yellowgreen dashed;
   background-color: lightcoral;
+}
+.social_button {
+  border: 2px tomato dashed;
+
+  display: grid;
+  /* align-content: center;
+  align-self: center;
+  align-items: center; */
+  width: 15rem;
+  height: 3rem;
+}
+.fb {
+  background-color: #4f7dbd;
+  text-align: center;
+  border: none;
+}
+.social_button_fb {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../icon/facebook.svg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 15px;
+  padding-right: 30px;
+}
+.google {
+  background-color: #e24b2e;
+  border: none;
+}
+.social_button_google {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../icon/g+.svg);
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position: 19px;
+  padding-right: 25px;
+}
+.twitter {
+  background-color: #64cdf1;
+  /* height: 3rem; */
+  /* width: 13rem; */
+  border: none;
+}
+.social_button_twitter {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 30px;
+  background-image: url(../icon/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position: 15px;
+}
+div button {
+  border: 2px yellow dashed;
+  margin: 2%;
+  line-height: 50px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.line {
+  width: 2px;
+  height: 28px;
+  background-color: grey;
+  align-self: center;
+}
+.line1 {
+  margin-left: 45px;
+}
+.line2 {
+  margin-left: 30px;
+}
+.line3 {
+  margin-left: 17px;
+}
+
+/* select */
+
+/* .select {
+  border-right: 2px solid rgba(164, 159, 159, 0.6);
+  width: 4px;
+  height: 220px;
+  position: relative;
+  top: 5px;
+  right: 28px;
+} */
+.select_line_vertical {
+  border-right: 2px solid rgba(164, 159, 159, 0.6);
+  display: grid;
+  /* content: ""; */
+  margin-top: 25%;
+  margin-right: 3%;
+  /* background-color: lightcoral; */
+  align-items: center;
+  justify-content: center;
+  height: 14rem;
+  width: 4rem;
+}
+.select_line {
+  content: "";
+  /* display: grid; */
+  position: absolute;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-top: 5%;
+  /* margin-right: 60%; */
+  top: 7rem;
+  right: -0.2rem;
+  background-color: white;
+  border: 2px solid rgba(164, 159, 159, 0.6);
+}
+.select_text {
+  padding: 12px 9px;
 }

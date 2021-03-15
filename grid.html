@@ -9,10 +9,67 @@
   </head>
   <body>
     <main class="container">
-      <div class="Social-container"></div>
-      <div class="Select">OR</div>
-      <div class="form-container">hi</div>
-      <footer class="footer"></footer>
+      <div class="Social-container">
+        <button class="social_button fb social_button_fb">
+          <div class="logo"></div>
+          <div class="line line1"></div>
+          <p class="text">Facebook login</p>
+        </button>
+        <button class="social_button google social_button_google">
+          <div class="logo"></div>
+          <div class="line line2"></div>
+          <p class="text">Google+ login</p>
+        </button>
+        <button class="social_button twitter social_button_twitter">
+          <div class="logo"></div>
+          <div class="line line3"></div>
+          <p class="text">Twitter login</p>
+        </button>
+      </div>
+      <div class="Select">
+        <div class="select_line_vertical">
+          <div class="select_line">
+            <p class="select_text">OR</p>
+          </div>
+        </div>
+      </div>
+      <div class="form-container">
+        <h1>Sign in with</h1>
+        <form class="form" action="#">
+          <div class="form_icon_email form_line">
+            <input
+              class="form_email"
+              type="email"
+              name="email"
+              placeholder="Username or E-mail"
+            />
+          </div>
+          <div class="form_icon_pass form_line">
+            <input
+              class="form_password"
+              type="password"
+              name="website"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form_checkbox_container">
+            <label class="form_label">
+              <input
+                class="form_checkbox"
+                type="checkbox"
+                name="rememberMe"
+              />
+              Remember me
+            </label>
+            <button class="form_login" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="footer_text footer_line">Register now</p>
+      <p class="footer_text">Forgotten?</p>
     </main>
   </body>
 </html>
