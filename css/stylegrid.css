@@ -27,15 +27,21 @@
 }
 .Social-container {
   grid-area: Social-container;
-  justify-items: center;
-  /* align-self: auto; */
-  align-items: center;
-  align-content: space-around;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   border: 2px teal dotted;
 }
 .Select {
   grid-area: Select;
   border: 2px tomato dotted;
+  position: relative;
+
+  /* width: 4px; */
+  /* height: 50%; */
+  /* display: grid; */
+  /* top: 15px;
+  right: -15px; */
 }
 .form-container {
   grid-area: form-container;
@@ -51,12 +57,13 @@
   border: 2px tomato dashed;
 
   display: grid;
-  align-content: center;
+  /* align-content: center;
   align-self: center;
-  align-items: center;
-  width: 88%;
+  align-items: center; */
+  width: 15rem;
+  height: 3rem;
 }
-/* .fb {
+.fb {
   background-color: #4f7dbd;
   text-align: center;
   border: none;
@@ -85,14 +92,79 @@
 }
 .twitter {
   background-color: #64cdf1;
+  /* height: 3rem; */
+  /* width: 13rem; */
   border: none;
 }
 .social_button_twitter {
-  display: grid;
+  display: flex;
   justify-content: space-around;
   padding-right: 30px;
   background-image: url(../icon/twitter.svg);
   background-repeat: no-repeat;
   background-size: 13%;
   background-position: 15px;
+}
+div button {
+  border: 2px yellow dashed;
+  margin: 2%;
+  line-height: 50px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.line {
+  width: 2px;
+  height: 28px;
+  background-color: grey;
+  align-self: center;
+}
+.line1 {
+  margin-left: 45px;
+}
+.line2 {
+  margin-left: 30px;
+}
+.line3 {
+  margin-left: 6px;
+}
+
+/* select */
+
+/* .select {
+  border-right: 2px solid rgba(164, 159, 159, 0.6);
+  width: 4px;
+  height: 220px;
+  position: relative;
+  top: 5px;
+  right: 28px;
 } */
+.select_line_vertical {
+  border-right: 2px solid rgba(164, 159, 159, 0.6);
+  display: grid;
+  /* content: ""; */
+  margin-top: 25%;
+  margin-right: 3%;
+  /* background-color: lightcoral; */
+  align-items: center;
+  justify-content: center;
+  height: 14rem;
+  width: 4rem;
+}
+.select_line {
+  content: "";
+  /* display: grid; */
+  position: absolute;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-top: 5%;
+  /* margin-right: 60%; */
+  top: 7rem;
+  right: -0.2rem;
+  background-color: white;
+  border: 2px solid rgba(164, 159, 159, 0.6);
+}
+.select_text {
+  padding: 12px 9px;
+}
