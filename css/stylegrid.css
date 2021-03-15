@@ -7,11 +7,11 @@
 .container {
   display: grid;
   border: 2px red dashed;
-  grid-template-columns: 2fr repeat(2, 2fr);
-  grid-template-rows: 1fr repeat(2, 3fr) 1fr;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 1fr repeat(2, 2fr) 1fr;
 
   /* background-color: white; */
-  flex-direction: column;
+  /* flex-direction: column; */
   /* border: 2px rgba(128, 128, 128, 0.342) solid; */
   margin: 10% auto;
   /* justify-content: center;
@@ -23,9 +23,14 @@
     "Social-container Select form-container"
     "Social-container Select form-container"
     "footer footer footer";
+  gap: calc(1rem + 1%);
 }
 .Social-container {
   grid-area: Social-container;
+  justify-items: center;
+  /* align-self: auto; */
+  align-items: center;
+  align-content: space-around;
   border: 2px teal dotted;
 }
 .Select {
@@ -42,3 +47,52 @@
   border: 2px yellowgreen dashed;
   background-color: lightcoral;
 }
+.social_button {
+  border: 2px tomato dashed;
+
+  display: grid;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  width: 88%;
+}
+/* .fb {
+  background-color: #4f7dbd;
+  text-align: center;
+  border: none;
+}
+.social_button_fb {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../icon/facebook.svg);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: 15px;
+  padding-right: 30px;
+}
+.google {
+  background-color: #e24b2e;
+  border: none;
+}
+.social_button_google {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../icon/g+.svg);
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position: 19px;
+  padding-right: 25px;
+}
+.twitter {
+  background-color: #64cdf1;
+  border: none;
+}
+.social_button_twitter {
+  display: grid;
+  justify-content: space-around;
+  padding-right: 30px;
+  background-image: url(../icon/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 13%;
+  background-position: 15px;
+} */
