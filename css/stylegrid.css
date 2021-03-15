@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  border: 2px red dashed;
+  grid-template-columns: 2fr repeat(2, 2fr);
+  grid-template-rows: 1fr repeat(2, 3fr) 1fr;
+
+  /* background-color: white; */
+  flex-direction: column;
+  /* border: 2px rgba(128, 128, 128, 0.342) solid; */
+  margin: 10% auto;
+  /* justify-content: center;
+  align-items: center; */
+  width: 650px;
+  height: 350px;
+  grid-template-areas:
+    "Social-container Select form-container "
+    "Social-container Select form-container"
+    "Social-container Select form-container"
+    "footer footer footer";
+}
+.Social-container {
+  grid-area: Social-container;
+  border: 2px teal dotted;
+}
+.Select {
+  grid-area: Select;
+  border: 2px tomato dotted;
+}
+.form-container {
+  grid-area: form-container;
+  border: 2px brown dashed;
+}
+.footer {
+  grid-area: footer;
+
+  border: 2px yellowgreen dashed;
+  background-color: lightcoral;
+}
